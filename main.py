@@ -23,14 +23,16 @@ if submit:
     with left_column:
         st.markdown("### 小红书标题1")
         st.write(result.titles[0])
-        st.markdown("### 小红书标题1")
-        st.write(result.titles[0])
-        st.markdown("### 小红书标题1")
-        st.write(result.titles[0])
-        st.markdown("### 小红书标题1")
-        st.write(result.titles[0])
-        st.markdown("### 小红书标题1")
-        st.write(result.titles[0])
+        st.markdown("### 小红书标题2")
+        st.write(result.titles[1])
+        st.markdown("### 小红书标题3")
+        st.write(result.titles[2])
+        st.markdown("### 小红书标题4")
+        st.write(result.titles[3])
+        st.markdown("### 小红书标题5")
+        st.write(result.titles[4])
     with right_column:
         st.markdown("### 小红书正文")
         st.write(result.content)
+
+
